@@ -80,6 +80,5 @@ button3.grid_configure(column=1,row=5,columnspan=1,rowspan=1)
 button4.grid_configure(column=1,row=7,columnspan=1,rowspan=1)
 button5.grid_configure(column=1,row=9,columnspan=1,rowspan=1)
 top.mainloop()
-
-
-
+printf("welcome")
+printf("buaa")
