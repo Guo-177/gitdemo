@@ -48,3 +48,19 @@ def showoff():
     root1.title('文本')
     label1=Label(root1,text=m,wraplength=1000)
     label1.pack()
+    root1.mainloop()
+def statistics1():
+    root2=Tk()
+    root2.geometry('300x200')
+    root2.title('总单词个数')
+    label2=Label(root2,text=len(a))
+    label2.pack()
+    root2.mainloop()                 
+def statistics2():
+    root3=Tk()
+    root3.geometry('1000x200')
+    root3.title('词频统计')
+    label3=Label(root3,text=y,wraplength=1000)
+    label3.pack()
+    root3.mainloop()
+
